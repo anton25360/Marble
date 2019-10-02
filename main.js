@@ -1,6 +1,3 @@
-var test1
-let test2
-
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault()
 
@@ -15,6 +12,9 @@ document.querySelector('form').addEventListener('submit', function(event) {
     console.log(color2);
     
     document.querySelector('.container').innerHTML = '<div style="height:100%; width: 100%; background-image: linear-gradient(to right,'+ color1 +', '+ color2 +');"></div>'
+    document.querySelector('.container2').style.backgroundImage = "linear-gradient(to right, "+ color1 +", "+ color2 +")"
+
+    // body.style.backgroundImage = "linear-gradient(to right, "+ color_1.value +", "+ color_2.value +")";
 
     
 
