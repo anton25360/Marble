@@ -3,4 +3,10 @@ body{
     padding: 0;
 }
 
-.header div{ text-align: center; }
+.header div{ 
+    text-align: center; 
+    border: 2px solid black;
+    color: yellow;
+    background-color: black;
+    margin-bottom: 20px;
+}
