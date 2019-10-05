@@ -3,18 +3,4 @@ body{
     padding: 0;
 }
 
-.header h1{
-    border: 2px solid red;
-
-}
-
-.header div{
-    text-align: center;
-    border: 2px solid red;
-}
-
-.header{
-    background-color: aquamarine;
-    border: 2px solid red;
-
-}
+.header div{ text-align: center; }
