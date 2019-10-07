@@ -16,11 +16,9 @@ body{
 } 
 
 .header h1{
-    /* color: red; */
     display: inline-block;
     font-size: 45px;
-    margin: 20px;
-    /* margin: 20px 290px; */
+    margin: 10px;
 
     background: linear-gradient(to right,#FF5F6D,#FFC371);
 	background-clip: text;
