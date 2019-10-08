@@ -51,7 +51,7 @@ form{
     border: 2px solid blue;
     display: inline-block;
     padding: 20px;
-    /* text-align: center; */
+    text-align: left;
 }
 
 .formContainer{
