@@ -9,7 +9,11 @@ document.querySelector('form').addEventListener('submit', function(event) {
     
     document.querySelector('.container').style.backgroundImage = "linear-gradient(to right, "+ color1 +", "+ color2 +")"
 
-    document.querySelector('.textTest').innerHTML = "<h1 style='background: linear-gradient(to right,"+ color1 +", "+ color2 +"); display:inline-block; background-clip: text; -webkit-text-fill-color: transparent; font-size:150px;'>"+text+"</h1>"
+    document.querySelector('.textTest').innerHTML = "<h1 style='background: linear-gradient(to right,"+ color1 +", "+ color2 +"); display:inline-block; background-clip: text; -webkit-text-fill-color: transparent; font-size:130px; margin:0; padding:30px 70px;'>"+text+"</h1>"
+
+    document.querySelector('.textTest').style.background = 'black'
+
+
 
     // background: linear-gradient(to right,#FF5F6D,#FFC371);
 
