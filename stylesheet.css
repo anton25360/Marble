@@ -40,3 +40,9 @@ body{
     border-radius: 4px;
     cursor: pointer;
   }
+
+  .container{
+      margin: 30px;
+      border: 2px solid black;
+      border-radius: 5px;
+  }
