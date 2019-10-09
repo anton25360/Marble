@@ -1,6 +1,7 @@
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault()
 
+    //get values from form
     let color1 = document.querySelector('[name="color1"]').value
     let color2 = document.querySelector('[name="color2"]').value
     let text = document.querySelector('[name="text"]').value
@@ -12,6 +13,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     //badge content
     document.querySelector('.textTest').innerHTML = "<h1 style='background: linear-gradient(to right,"+ color1 +", "+ color2 +"); display:inline-block; background-clip:text; -webkit-background-clip: text; -webkit-text-fill-color:transparent; font-size:150px; margin:0; padding:30px 70px;'>"+text+"</h1>"
 
+    //badge color
     if (bg == 'dark') {
         document.querySelector('.textTest').style.background = 'black'
     } else {
