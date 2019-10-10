@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    
+
     <link rel="stylesheet" href="assets/font/stylesheet.css">
     <link rel="stylesheet" href="stylesheet.css">
     <script defer src="main.js"></script>
@@ -10,38 +11,68 @@
 </head>
 
 <body>
-        
+
     <header class="header">
-        <div><h1>Marble</h1></div>
+        <div>
+            <h1>Marble.</h1>
+            <a href="https://github.com/anton25360/Marble"><img src="assets/icons/gh-light.png"></a>
+        </div>
     </header>
 
+    <div class="gradientStrip"></div>
 
-    <div class="formContainer">
-        <form>
-            <label for="color1">First color</label><br>
-            <input type="text" name="color1" placeholder="eg: red"><br><br>
-    
-            <label for="color2">Second color</label><br>
-            <input type="text" name="color2" placeholder="eg: #ffffff"><br><br>
+    <div class="flexContainer">
 
-            <label for="color2">Text</label><br>
-            <input type="text" name="text" placeholder="eg: Marble"><br><br>
+        <div class="flexText">
+            <h2>Welcome to Marble.</h2>
+            <p> Marble is a tool used for creating <br>
+                beatiful gradient logos & badges<br>
+                to use in any project, be it<br>
+                personal or commercial.<br><br>
 
-            <label for="color2">Background</label><br>
-            <input type="text" name="bg" placeholder="eg: light/dark"><br><br>
-    
-            <input type="submit" value="Generate">
-        </form>
+                To use it, fill out the adjecent form<br>
+                And click the 'Generate' button<br>
+                To see the result.<br><br>
+
+                <!-- You can also click the download<br>
+                button to save them locally.<br><br> -->
+
+                Need ideas?<br>
+                Use the links below to get inspired:
+
+                <ul>
+                    <li><a target="_blank" href="https://uigradients.com/">UI Gradients</a></li>
+                    <li><a target="_blank" href="https://webkul.github.io/coolhue/">CoolHue</a></li>
+                    <li><a target="_blank" href="https://webgradients.com/">WebGradients</a></li>
+                    <li><a target="_blank" href="https://www.eggradients.com/">EggGradients</a></li>
+                </ul>
+
+            </p>
+        </div>
+
+
+        <div class="flexForm">
+            <form>
+                <label for="color1">First color</label><br>
+                <input type="text" name="color1" placeholder="eg: red"><br><br>
+
+                <label for="color2">Second color</label><br>
+                <input type="text" name="color2" placeholder="eg: #ffffff"><br><br>
+
+                <label for="color2">Text</label><br>
+                <input type="text" name="text" placeholder="eg: Marble"><br><br>
+
+                <label for="color2">Background color</label><br>
+                <input type="text" name="bg" placeholder="eg: black/white"><br><br>
+
+                <input type="submit" value="Generate">
+            </form>
+
+        </div>
+
     </div>
 
-    <div class="container" style="height: 200px;"></div>
-
-    <div class="textTest"></div><br>
-
-    <a href="https://github.com/anton25360/Marble">Github Repo</a>
-    <a href="https://uigradients.com">UI Gradients</a>
-
-
+    <div class="badge"></div><br>
 
 </body>
 
