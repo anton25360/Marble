@@ -78,3 +78,24 @@ form{
     border-radius: 100px;
     margin: 20px;
 }
+
+
+
+.flexContainer{
+    /* display: grid; */
+    display: inline-flex;
+    /* flex-direction: column; */
+    border: 2px solid red;
+    
+}
+
+.flexText{
+    border: 2px solid blue;
+    /* width: 200px; */
+}
+
+.flexForm{
+    border: 2px solid purple;
+    /* height:70px;
+    width: 40px; */
+}
