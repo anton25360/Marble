@@ -53,11 +53,11 @@ body {
 
 form{
     border: 2px solid black;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     display: inline-block;
     padding: 20px;
     text-align: left;
-    background-color: #ccc;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 input[type=text] {
