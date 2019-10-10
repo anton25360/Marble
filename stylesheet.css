@@ -100,6 +100,10 @@ form{
     padding: 15px;
 }
 
+.flexText a{
+    color: black;
+}
+
 .flexForm{
     border: 2px solid purple;
 }
