@@ -83,14 +83,12 @@ form{
 
 .flexContainer{
     display: flex;
-    flex-direction: row;
-    border: 2px solid red;
-    text-align: center;
-    
+    justify-content: center;
 }
 
 .flexText{
     border: 2px solid blue;
+    padding: 15px;
 }
 
 .flexForm{
