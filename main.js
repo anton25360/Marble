@@ -16,7 +16,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     document.querySelector('.badge').style.background = bg
 
     //icon content
-    document.querySelector('.icon').innerHTML = "<h1 style='background: linear-gradient(to right,"+ color1 +", "+ color2 +"); display:inline-block; background-clip:text; -webkit-background-clip: text; -webkit-text-fill-color:transparent; font-size:83px; margin:0; padding:30px;'>"+letter+"</h1>"
+    document.querySelector('.icon').innerHTML = "<h1 style='background: linear-gradient(to right,"+ color1 +", "+ color2 +"); display:inline-block; background-clip:text; -webkit-background-clip: text; -webkit-text-fill-color:transparent; font-size:85px; margin:0; padding:30px;'>"+letter+"</h1>"
     document.querySelector('.icon').style.background = bg
 
 })

@@ -110,4 +110,5 @@ input[type=submit] {
     border-radius: 50%;
     width: 135px;
     height: 135px;
+    text-align: center;
 }
