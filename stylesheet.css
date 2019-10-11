@@ -101,6 +101,10 @@ input:focus {
     margin-left: 20px;
 }
 
+.flexOutput{
+    text-align: center;
+}
+
 /* BADGE & ICON */
 
 .badge, .icon{
