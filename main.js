@@ -21,18 +21,21 @@ document.querySelector('form').addEventListener('submit', function(event) {
     document.querySelector('.icon').innerHTML = "<h1 style='background: linear-gradient(to right,"+ color1 +", "+ color2 +"); display:inline-block; background-clip:text; -webkit-background-clip: text; -webkit-text-fill-color:transparent; font-size:85px; margin:0; padding:30px;'>"+letter+"</h1>"
     document.querySelector('.icon').style.background = bg
 
+    //gradient ball content
+    document.querySelector('.gradientBall').style.backgroundImage = "linear-gradient(to right, "+ color1 +", "+ color2 +")";
+
     //shows output
     hidden = false
 
-    checkVisibility()
+    // checkVisibility()
 })
 
-function checkVisibility() {
-    if (hidden) {
-        document.querySelector('.flexOutput').style.visibility = 'hidden'
-    } else {
-        document.querySelector('.flexOutput').style.visibility = 'visible'
-    }
-}
+// function checkVisibility() {
+//     if (hidden) {
+//         document.querySelector('.flexOutput').style.visibility = 'hidden'
+//     } else {
+//         document.querySelector('.flexOutput').style.visibility = 'visible'
+//     }
+// }
 
-checkVisibility()
+// checkVisibility()

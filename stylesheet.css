@@ -101,7 +101,7 @@ input:focus {
     margin-left: 20px;
 }
 
-.flexOutput{
+.flexOutput, .flexOutput2{
     text-align: center;
 }
 
@@ -118,5 +118,14 @@ input:focus {
     border-radius: 50%;
     width: 135px;
     height: 135px;
+    text-align: center;
+}
+
+.gradientBall{
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    border: 20px solid black;
+    display: inline-block;
     text-align: center;
 }
