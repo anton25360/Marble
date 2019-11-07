@@ -1,7 +1,9 @@
-var hidden = true
+setHidden(true)
 
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault()
+
+    setHidden(false)
 
     //get values from form
     let color1 = document.querySelector('[name="color1"]').value
@@ -25,17 +27,17 @@ document.querySelector('form').addEventListener('submit', function(event) {
     document.querySelector('.gradientBall').style.backgroundImage = "linear-gradient(to right, "+ color1 +", "+ color2 +")";
 
     //shows output
-    hidden = false
+    // hidden = false
 
     // checkVisibility()
 })
 
-// function checkVisibility() {
-//     if (hidden) {
-//         document.querySelector('.flexOutput').style.visibility = 'hidden'
-//     } else {
-//         document.querySelector('.flexOutput').style.visibility = 'visible'
-//     }
-// }
-
-// checkVisibility()
+function setHidden(hidden) {
+    if (hidden) {
+        document.querySelector('.flexOutput').style.visibility = 'hidden'
+        document.querySelector('.flexOutput2').style.visibility = 'hidden'
+    } else {
+        document.querySelector('.flexOutput').style.visibility = 'visible'
+        document.querySelector('.flexOutput2').style.visibility = 'visible'
+    }
+}
